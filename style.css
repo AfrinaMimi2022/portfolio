@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h4{
+    font-size: 25px;
+}
+.orange-font{
+    color: orangered;
+}
+
+.half-width{
+    width:40%;
+    padding-left: 5%;
+    padding-top: 2%;
+    margin: 2%;
+    float: left;
+
+}
+img{
+    width:70%;
+}
+.first-half{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 85%;
+ }
+ .box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+    padding: 2%;
+ }
+ #era{
+    border-left: 10px solid ;
+    border-image:linear-gradient(180deg, rgb(161, 240, 134), rgb(2, 106, 39));
+    border-image-slice: 1;
+ }
+ #cculb{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(239, 241, 114), rgb(206, 76, 0));
+    border-image-slice: 1;
+ }
+ #welcome{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(239, 241, 114), rgb(206, 76, 0));
+    border-image-slice: 1;
+ }
+
+ #skill{
+    border-left: 10px solid ;
+    border-image:linear-gradient(180deg, rgb(161, 240, 134), rgb(2, 106, 39));
+    border-image-slice: 1;
+
+ }
